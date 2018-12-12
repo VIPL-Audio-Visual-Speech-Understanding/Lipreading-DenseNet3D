@@ -15,10 +15,8 @@ You can train or test the model as follow:
 ```
 python main.py options_lip.toml
 ```
-Model architecture details and data annotation items are configured in 'options_lip.toml'.
+Model architecture details and data annotation items are configured in `options_lip.toml`. Please pay attention that you may need modify the code in `options_lip.toml` and change the parameters `data_root` and `index_root` to make the scripts work just as expected. 
 
-**Note**:   
-Please pay attention that you may need modify the code in [dataset.py]() and change the parameters `data_root` and `index_root` to make the scripts work just as expected. 
 Another implmentation: https://github.com/NirHeaven/D3D
 
 ## Reference
