@@ -1,0 +1,49 @@
+title = "LipReading PyTorch"
+
+[general]
+usecudnn = true
+usecudnnbenchmark = true
+gpuid = "0"
+loadpretrainedmodel = true
+random_seed = 55
+pretrainedmodelpath = 'weights/tv_final_00000005.pt'
+
+[input]
+batchsize = 50
+numworkers = 8
+shuffle = true
+
+[model]
+type = "Finetune-label"
+inputdim = 256
+hiddendim = 256
+numclasses = 1000
+numlstms = 2
+
+[training]
+train = false
+epochs = 1
+startepoch = 0
+statsfrequency = 100 
+data_root = 'LRW1000_Public/images'
+index_root = 'LRW1000_Public/info/trn_1000.txt'
+padding = 30
+learningrate = 1e-3
+momentum = 0.9
+weightdecay = 0.003
+save_prefix = "weights/tv_word_2000"
+
+[validation]
+validate = false
+data_root = 'LRW1000_Public/images'
+index_root = 'LRW1000_Public/info/val_1000.txt'
+padding = 60
+saveaccuracy = true
+
+
+[test]
+test = true
+data_root = 'LRW1000_Public/images'
+index_root = 'LRW1000_Public/info/tst_1000.txt'
+padding = 60
+saveaccuracy = true
