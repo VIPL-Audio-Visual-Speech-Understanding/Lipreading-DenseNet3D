@@ -6,7 +6,7 @@ usecudnnbenchmark = true
 gpuid = "0"
 loadpretrainedmodel = true
 random_seed = 55
-pretrainedmodelpath = 'weights/tv_final_00000005.pt'
+pretrainedmodelpath = 'weights/lrw1000_34.pt'
 
 [input]
 batchsize = 16
