@@ -9,7 +9,7 @@ random_seed = 55
 pretrainedmodelpath = 'weights/tv_final_00000005.pt'
 
 [input]
-batchsize = 50
+batchsize = 16
 numworkers = 8
 shuffle = true
 
