@@ -6,7 +6,7 @@ This respository is implementation of the proposed method in [LRW-1000: A Natura
 
 ## Dependencies
 * python 3.6.7   
-* pytorch 1.0.0.dev20181103
+* pytorch 1.0+
 * Others
 ## Dataset
 This model is pretrained on LRW with RGB lip images(112×112), and then tranfer to LRW-1000 with the same size. We train the model end-to-end.   
