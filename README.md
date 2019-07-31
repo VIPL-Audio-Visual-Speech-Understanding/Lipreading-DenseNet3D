@@ -5,8 +5,8 @@ DenseNet3D Model In "DenseNet3D Model In "LRW-1000: A Naturally-Distributed Larg
 This respository is implementation of the proposed method in [LRW-1000: A Naturally-Distributed Large-Scale Benchmark for Lip Reading in the Wild](). Our paper can be found [here](https://arxiv.org/pdf/1810.06990.pdf).
 
 ## Dependencies
-* python 3.6.7   
-* pytorch 1.0+
+* Python 3.6.7   
+* PyTorch 1.0+
 * Others
 ## Dataset
 This model is pretrained on LRW with RGB lip images(112×112), and then tranfer to LRW-1000 with the same size. We train the model end-to-end.   
