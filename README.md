@@ -1,5 +1,8 @@
 # Lipreading-DenseNet3D
 DenseNet3D Model In "DenseNet3D Model In "LRW-1000: A Naturally-Distributed Large-Scale Benchmark for Lip Reading in the Wild", https://arxiv.org/abs/1810.06990
+
+![Sample of the proposed LRW-1000](banner.png)
+
 ## Introduction   
 
 This respository is implementation of the proposed method in [LRW-1000: A Naturally-Distributed Large-Scale Benchmark for Lip Reading in the Wild](). Our paper can be found [here](https://arxiv.org/pdf/1810.06990.pdf).
