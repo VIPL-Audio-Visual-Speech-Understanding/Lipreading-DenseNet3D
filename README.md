@@ -27,10 +27,12 @@ Another implmentation: https://github.com/NirHeaven/D3D
 If this repository was useful for your research, please cite our work:
 
 ```
-@article{shuang18LRW1000,
+@inproceedings{yang2019lrw,
   title={LRW-1000: A Naturally-Distributed Large-Scale Benchmark for Lip Reading in the Wild},
-  author={Shuang Yang, Yuanhang Zhang, Dalu Feng, Mingmin Yang, Chenhao Wang, Jingyun Xiao, Keyu Long, Shiguang Shan, Xilin Chen},
-  booktitle={arXiv},
-  year={2018}
+  author={Yang, Shuang and Zhang, Yuanhang and Feng, Dalu and Yang, Mingmin and Wang, Chenhao and Xiao, Jingyun and Long, Keyu and Shan, Shiguang and Chen, Xilin},
+  booktitle={2019 14th IEEE International Conference on Automatic Face \& Gesture Recognition (FG 2019)},
+  pages={1--8},
+  year={2019},
+  organization={IEEE}
 }
 ```
