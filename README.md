@@ -33,6 +33,7 @@ If this repository was useful for your research, please cite our work:
   booktitle={2019 14th IEEE International Conference on Automatic Face \& Gesture Recognition (FG 2019)},
   pages={1--8},
   year={2019},
-  organization={IEEE}
+  organization={IEEE},
+  url={https://github.com/Fengdalu/Lipreading-DenseNet3D}
 }
 ```
