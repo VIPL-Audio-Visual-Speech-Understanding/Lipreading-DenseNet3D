@@ -36,19 +36,6 @@ Model architecture details and data annotation items are configured in `options_
 * tensorboardX 
 * imageio
 
-## Related Projects
-
-Another implmentation Of DenseNet-3D: https://github.com/NirHeaven/D3D
-
-Learn an Effective Lip Reading Model without Pains (Strong Recommended): https://github.com/Fengdalu/learn-an-effective-lip-reading-model-without-pains
-
-LipNet-PyTorch (The state-of-the-art PyTorch Version): https://github.com/Fengdalu/LipNet-PyTorch
-
-End-to-end-lipreading: https://github.com/mpc001/end-to-end-lipreading
-
-Lipreading using Temporal Convolutional Networks: https://github.com/mpc001/Lipreading_using_Temporal_Convolutional_Networks
-
-
 ## Reference
 
 If this repository was useful for your research, please cite our work:
@@ -64,3 +51,16 @@ If this repository was useful for your research, please cite our work:
   url={https://github.com/Fengdalu/Lipreading-DenseNet3D}
 }
 ```
+
+
+## Related Projects
+
+[Another implmentation Of DenseNet-3D](https://github.com/NirHeaven/D3D)
+
+[Learn an Effective Lip Reading Model without Pains (Strong Recommended)](https://github.com/Fengdalu/learn-an-effective-lip-reading-model-without-pains) 
+
+[LipNet-PyTorch (The state-of-the-art PyTorch Version)](https://github.com/Fengdalu/LipNet-PyTorch) 
+
+[End-to-end-lipreading](https://github.com/mpc001/end-to-end-lipreading)
+
+[Lipreading using Temporal Convolutional Networks](https://github.com/mpc001/Lipreading_using_Temporal_Convolutional_Networks)
