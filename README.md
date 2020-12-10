@@ -13,7 +13,7 @@ This respository is implementation of the proposed DenseNet-3D network in [LRW-1
 
 ## Data Preparation
 
-Download [LRW1000 Dataset](https://vipl.ict.ac.cn/view_database.php?id=14) and place `LRW1000_Public` in the root of this repository. You can create symbolic links to this project: 
+Download [LRW1000 Dataset](https://vipl.ict.ac.cn/view_database.php?id=14) and place `LRW1000_Public` in the root of this repository. Instead, you can create symbolic links to this project: 
 
 ```
 ln -s LRW1000_Public Lipreading-DenseNet3D/LRW1000_Public
